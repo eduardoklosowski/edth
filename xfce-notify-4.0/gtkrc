@@ -1,0 +1,32 @@
+style "edth-window"
+{
+    bg[NORMAL] = "#e3e4e6"
+    XfceNotifyWindow::border-color = "#909090"
+    XfceNotifyWindow::border-color-hover = "#606060"
+    XfceNotifyWindow::border-radius = 0.0
+    XfceNotifyWindow::border-width = 5.0
+    XfceNotifyWindow::border-width-hover = 5.0
+}
+class "XfceNotifyWindow" style "edth-window"
+
+style "edth-text"
+{
+    fg[NORMAL] = "#000000"
+    GtkWidget::link-color = "#505050"
+}
+widget_class "XfceNotifyWindow.*.<GtkLabel>" style "edth-text"
+
+style "edth-btn"
+{
+    bg[NORMAL] = "#d2d3d5"
+    bg[PRELIGHT] = "#c1c2c4"
+    fg[NORMAL] = "#000000"
+    fg[PRELIGHT] = "#000000"
+}
+widget_class "XfceNotifyWindow.*.GtkButton" style "edth-btn"
+
+style "edth-summary"
+{
+    font_name = "Bold"
+}
+widget "XfceNotifyWindow.*.summary" style "edth-summary"
