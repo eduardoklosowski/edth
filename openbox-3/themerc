@@ -1,0 +1,62 @@
+# http://openbox.org/wiki/Help:Themes
+
+
+# Geral
+
+border.width: 1
+padding.width: 5
+padding.height: 5
+*.bg: Solid Flat
+*.text.color: #333333
+
+
+# Janela
+
+window.client.padding.width: 4
+window.client.padding.height: 0
+window.handle.width: 4
+window.label.text.justify: center
+
+
+# Janela Ativa
+
+window.active.border.color: #404040
+window.active.title.separator.color: #606060
+window.active.*.bg.color: #606060
+window.active.client.color: #606060
+window.active.label.text.color: #ffffff
+window.active.button.*.image.color: #000000
+
+
+# Janela Inativa
+
+window.inactive.border.color: #707070
+window.inactive.title.separator.color: #909090
+window.inactive.*.bg.color: #909090
+window.inactive.client.color: #909090
+window.inactive.label.text.color: #ffffff
+window.inactive.button.*.image.color: #404040
+
+
+# Menu
+
+menu.border.width: 1
+menu.border.color: #bbbbbb
+menu.separator.width: 1
+menu.separator.padding.width: 8
+menu.separator.padding.height: 4
+menu.separator.color: #bbbbbb
+menu.title.bg.color: #bbbbbb
+menu.title.text.justify: center
+menu.items.bg.color: #ffffff
+menu.items.text.color: #333333
+menu.items.active.bg.color: #cce2ff
+menu.items.disabled.text.color: #808080
+
+
+# On Screen Dialogs
+
+osd.border.width: 1
+osd.border.color: #404040
+osd.*.bg.color: #dee0e1
+osd.label.text.color: #333333
