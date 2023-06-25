@@ -1,0 +1,7 @@
+Package: edth
+Version: $VERSION
+Section: misc
+Priority: optional
+Maintainer: Eduardo Klosowski <eduardo_klosowski@yahoo.com>
+Architecture: all
+Description: Tema EdTh
